@@ -1,4 +1,4 @@
-vhack_berlin
+Google+ Twitter Wall
 ============
 
-vHackathon Repo
+A project built together with Björn Ahlfeld (https://github.com/ganddev)
