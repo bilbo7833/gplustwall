@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/android_vhack_small" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/icon"
+        android:text="@+id/label"
+        android:textColor="#58646a"
+        android:textSize="18sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="-4dp"
+        android:layout_toRightOf="@id/icon"
+        android:text="@+id/label"
+        android:textColor="#9e9e9e"
+        
+        android:textSize="14sp" >
+    </TextView>
+
+    <View
+        android:id="@+id/delimiter"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/time"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/icon"
+        android:background="#9e9e9e" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/delimiter"
+        android:textColor="#58646a"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/icon"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="14sp" />
+    
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/description"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/icon"
+        android:text="TextView"
+        android:textColor="#9e9e9e"
+        android:textSize="12sp" />
+    
+    <View
+        android:id="@+id/bottom_space"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/link"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/icon"
+        />
+
+</RelativeLayout>

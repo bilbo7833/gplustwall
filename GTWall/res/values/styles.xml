@@ -1,0 +1,12 @@
+<resources>
+
+  <style name="AppTheme" parent="android:Theme.Light.NoTitleBar.Fullscreen" />
+
+  <style name="list">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:background">@android:color/background_light</item>
+    <item name="android:listSelector">@android:drawable/list_selector_background</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+  </style>
+</resources>

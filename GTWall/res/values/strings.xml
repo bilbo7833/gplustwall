@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">G+TWall</string>
+    <string name="app_label">Google+TwitterWall</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_search">Search</string>
+    <string name="title_activity_gtwall">GTWall</string>
+    <string name="title_activity_twitter_test">TwitterTestActivity</string>
+    <string name="search_hint">Search Google+ and Twitter</string>
+
+</resources>
